@@ -10,7 +10,7 @@
   - Alguma anotaçaoa aqui
   - Alguma anotaçaoa aqui  
 
-# Roteito!
+# Roteiro:
 
   - Alguma anotaçao aqui
   - Alguma anotaçao aqui
