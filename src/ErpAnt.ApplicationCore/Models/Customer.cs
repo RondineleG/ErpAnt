@@ -1,3 +1,5 @@
+using ErpAnt.ApplicationCore.Models;
+
 namespace ErpAnt.ApplicationCore.Models 
 {
     public class Customer : ModelBase
