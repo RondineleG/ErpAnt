@@ -1,3 +1,6 @@
+using ErpAnt.ApplicationCore.Models;
+using System.Collections.Generic;
+
 namespace ErpAnt.ApplicationCore.Models 
 {
     public class Customer : ModelBase
