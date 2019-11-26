@@ -1,4 +1,5 @@
 using ErpAnt.ApplicationCore.Models;
+using System;
 
 namespace ErpAnt.ApplicationCore.Models
 {
