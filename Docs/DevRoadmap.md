@@ -1,40 +1,40 @@
- # ErpAnt 
+ # ErpAnt - WebApi
 
-- Criar Soluçao
+##### Create Solution
 
-  - Alguma anotaçao aqui
-  - Alguma anotaçao aqui
+  - Anything here
+  - Anything here
 
-- Dividir em camadas
+##### Split into layers
 
-  - Alguma anotaçaoa aqui
-  - Alguma anotaçaoa aqui  
+  - Anything here
+  - Anything here 
 
-# Roteiro:
+# Developing Roadmap:
 
-  - Alguma anotaçao aqui
-  - Alguma anotaçao aqui
-
-
-#### Funcionalidades Primarias :
-  - Alguma anotaçao aqui
-  - Alguma anotaçao aqui
-  - Alguma anotaçao aqui
-
-#### Funcionalidades Sequndarias :
->  Alguma anotaçao aqui
->  Alguma anotaçao aqui
->  Alguma anotaçao aqui
->  Alguma anotaçao aqui
->  Alguma anotaçao aqui
->  Alguma anotaçao aqui
->  Alguma anotaçao aqui
+  - Anything here
+  - Anything here
 
 
-### Tecnologias
+#### Primary Functions :
+  - Anything here
+  - Anything here
+  - Anything here
 
-Alguma anotaçao aqui
+#### Secondary Functions:
+>  Anything here
+>  Anything here
+>  Anything here
+>  Anything here
+>  Anything here
+>  Anything here
+>  Anything here
 
-* [AspnetCore] - Para Criar a WebApi!
-* [Entity Framework] - Para manipular dados
-* [MySql] - O banco de dados. 
+
+### Technologies
+
+Anything here
+
+* [AspnetCore] - For Create a WebApi
+* [EntityFramework] - For manipulations DataBase
+* [SqlServer] - For DataBase. 
