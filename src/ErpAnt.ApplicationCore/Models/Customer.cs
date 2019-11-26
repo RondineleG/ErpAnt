@@ -12,6 +12,9 @@ namespace ErpAnt.ApplicationCore.Models
 
         public string Email { get; set; }
 
+        /* EF Relations */
+        public IEnumerable<Order> Orders { get; set; }
+
          
     }
 }
