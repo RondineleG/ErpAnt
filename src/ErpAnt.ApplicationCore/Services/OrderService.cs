@@ -1,6 +1,6 @@
 namespace ErpAnt.ApplicationCore.Services
 {
-    public class CustomerService
+    public class OrderService
     {
         
     }

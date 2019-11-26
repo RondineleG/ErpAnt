@@ -1,6 +1,6 @@
 namespace ErpAnt.ApplicationCore.Interfaces.Services
 {
-    public interface IClienteService
+    public interface ICustomerService
     {
          
     }
