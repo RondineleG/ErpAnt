@@ -5,12 +5,6 @@ VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErpAnt.Server", "src\ErpAnt.Server\ErpAnt.Server.csproj", "{2AE738CE-1C49-4D72-9468-9C14CEF4F573}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4D2DF337-719E-4256-9EFA-B4AB20D4D561}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErpAnt.ApplicationCore", "src\ErpAnt.ApplicationCore\ErpAnt.ApplicationCore.csproj", "{3869BA32-6070-433C-9AB0-5ADE3B3549EF}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErpAnt.InfraStructure", "src\ErpAnt.InfraStructure\ErpAnt.InfraStructure.csproj", "{0F70ACBA-BA97-4133-8D09-44D0D40B95FC}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,39 +27,11 @@ Global
 		{2AE738CE-1C49-4D72-9468-9C14CEF4F573}.Release|x64.Build.0 = Release|Any CPU
 		{2AE738CE-1C49-4D72-9468-9C14CEF4F573}.Release|x86.ActiveCfg = Release|Any CPU
 		{2AE738CE-1C49-4D72-9468-9C14CEF4F573}.Release|x86.Build.0 = Release|Any CPU
-		{3869BA32-6070-433C-9AB0-5ADE3B3549EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3869BA32-6070-433C-9AB0-5ADE3B3549EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3869BA32-6070-433C-9AB0-5ADE3B3549EF}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{3869BA32-6070-433C-9AB0-5ADE3B3549EF}.Debug|x64.Build.0 = Debug|Any CPU
-		{3869BA32-6070-433C-9AB0-5ADE3B3549EF}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{3869BA32-6070-433C-9AB0-5ADE3B3549EF}.Debug|x86.Build.0 = Debug|Any CPU
-		{3869BA32-6070-433C-9AB0-5ADE3B3549EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3869BA32-6070-433C-9AB0-5ADE3B3549EF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3869BA32-6070-433C-9AB0-5ADE3B3549EF}.Release|x64.ActiveCfg = Release|Any CPU
-		{3869BA32-6070-433C-9AB0-5ADE3B3549EF}.Release|x64.Build.0 = Release|Any CPU
-		{3869BA32-6070-433C-9AB0-5ADE3B3549EF}.Release|x86.ActiveCfg = Release|Any CPU
-		{3869BA32-6070-433C-9AB0-5ADE3B3549EF}.Release|x86.Build.0 = Release|Any CPU
-		{0F70ACBA-BA97-4133-8D09-44D0D40B95FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0F70ACBA-BA97-4133-8D09-44D0D40B95FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0F70ACBA-BA97-4133-8D09-44D0D40B95FC}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{0F70ACBA-BA97-4133-8D09-44D0D40B95FC}.Debug|x64.Build.0 = Debug|Any CPU
-		{0F70ACBA-BA97-4133-8D09-44D0D40B95FC}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{0F70ACBA-BA97-4133-8D09-44D0D40B95FC}.Debug|x86.Build.0 = Debug|Any CPU
-		{0F70ACBA-BA97-4133-8D09-44D0D40B95FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0F70ACBA-BA97-4133-8D09-44D0D40B95FC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0F70ACBA-BA97-4133-8D09-44D0D40B95FC}.Release|x64.ActiveCfg = Release|Any CPU
-		{0F70ACBA-BA97-4133-8D09-44D0D40B95FC}.Release|x64.Build.0 = Release|Any CPU
-		{0F70ACBA-BA97-4133-8D09-44D0D40B95FC}.Release|x86.ActiveCfg = Release|Any CPU
-		{0F70ACBA-BA97-4133-8D09-44D0D40B95FC}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EFD0EE11-0BE9-4264-B98E-CA8432711A90}
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{3869BA32-6070-433C-9AB0-5ADE3B3549EF} = {4D2DF337-719E-4256-9EFA-B4AB20D4D561}
-		{0F70ACBA-BA97-4133-8D09-44D0D40B95FC} = {4D2DF337-719E-4256-9EFA-B4AB20D4D561}
 	EndGlobalSection
 EndGlobal
