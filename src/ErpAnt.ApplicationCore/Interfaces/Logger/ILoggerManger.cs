@@ -8,4 +8,4 @@ namespace ErpAnt.ApplicationCore.Interfaces.Logger
          void LogError(string message);
 
     }
-} 
+} ]
