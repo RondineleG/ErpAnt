@@ -1,3 +1,5 @@
+using System;
+
 namespace ErpAnt.ApplicationCore.Models 
 {
      public abstract class ModelBase
