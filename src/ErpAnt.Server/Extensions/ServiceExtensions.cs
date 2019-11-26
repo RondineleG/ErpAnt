@@ -1,16 +1,29 @@
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.DependencyInjection;
+
 namespace ErpAnt.Server.Extensions
 {
     public static class ServiceExtensions
     {
-         public static void ConfigureCors(this IserviceCollection services)
+         public static void ConfigureCors(this IServiceCollection services)
          {
 
              services.AddCors(options =>
              {
                  options.AddPolicy("CorsPolicy",
                  builder => builder.AllowAnyOrigin()
-                 .AllowMethod()
-                 .AllowHeader());
+                 .AllowAnyMethod()
+                 .AllowAnyHeader());
+             });
+
+         }
+
+         public static void ConfigureIISIntegration(this IServiceCollection services)
+         {
+
+             services.Configure<IISOptions>( options =>
+             {
+
              });
 
          }
