@@ -1,6 +1,7 @@
 using ErpAnt.Server.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -33,6 +34,18 @@ namespace ErpAnt.Server
             }
 
             app.UseHttpsRedirection();
+            
+            app.UseStaticFiles();
+
+            app.UseCors("CorsPolicy");
+
+
+            app.UseForwardedHeaders(new ForwardedHeadersOptions
+            {
+                ForwardedHeaders = ForwardedHeaders.All
+            });
+
+ 
 
             app.UseRouting();
 
