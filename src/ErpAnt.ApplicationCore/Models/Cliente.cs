@@ -1,13 +1,11 @@
-namespace ErpAnt.ApplicationCore.Entities 
+namespace ErpAnt.ApplicationCore.Models 
 {
-    public class Cliente
+    public class Cliente : ModelBase
     {
         public Cliente()
         {
             
         }
-        public int ClienteId { get; set; }
-
         public string Nome { get; set; }
 
         public string Telefone { get; set; }         
