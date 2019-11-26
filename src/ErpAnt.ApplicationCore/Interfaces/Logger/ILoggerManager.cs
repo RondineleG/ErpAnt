@@ -1,6 +1,6 @@
 namespace ErpAnt.ApplicationCore.Interfaces.Logger
 {
-    public interface ILoggerManger
+    public interface ILoggerManager
     {
          void LogInformation(string message);
          void LogWarning(string message);
@@ -8,4 +8,4 @@ namespace ErpAnt.ApplicationCore.Interfaces.Logger
          void LogError(string message);
 
     }
-} ]
+} 
