@@ -1,6 +1,9 @@
+using Microsoft.AspNetCore.Mvc;
+
 namespace ErpAnt.Server.Controllers
 {
-    public class CustomerController
+    public class CustomerController : ControllerBase
+
     {
         
     }

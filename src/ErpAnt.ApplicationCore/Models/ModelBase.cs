@@ -1,8 +1,8 @@
 using System;
 
-namespace ErpAnt.ApplicationCore.Models 
+namespace ErpAnt.ApplicationCore.Models
 {
-     public abstract class ModelBase
+    public abstract class ModelBase
     {
         protected ModelBase()
         {

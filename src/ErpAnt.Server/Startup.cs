@@ -34,7 +34,7 @@ namespace ErpAnt.Server
             }
 
             app.UseHttpsRedirection();
-            
+
             app.UseStaticFiles();
 
             app.UseCors("CorsPolicy");
@@ -45,7 +45,7 @@ namespace ErpAnt.Server
                 ForwardedHeaders = ForwardedHeaders.All
             });
 
- 
+
 
             app.UseRouting();
 

@@ -1,6 +1,8 @@
+using Microsoft.AspNetCore.Mvc;
+
 namespace ErpAnt.Server.Controllers
 {
-    public class OrderController
+    public class OrderController : ControllerBase
     {
         
     }
