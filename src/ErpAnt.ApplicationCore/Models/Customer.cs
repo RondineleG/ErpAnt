@@ -1,8 +1,11 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace ErpAnt.ApplicationCore.Models
 {
+    [ Table ( "Customer" )]
     public class Customer : ModelBase
     {
         public Customer()
