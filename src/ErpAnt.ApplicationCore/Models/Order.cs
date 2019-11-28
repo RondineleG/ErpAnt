@@ -2,7 +2,7 @@ using System;
 
 namespace ErpAnt.ApplicationCore.Models
 {
-    public class Order
+    public class Order : ModelBase
     {
         public Guid CustomerId { get; set; }
 
