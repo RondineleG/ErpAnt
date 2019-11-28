@@ -1,6 +1,40 @@
-## GitHub Pages
+ # ErpAnt - WebApi
 
-You can use the [editor on GitHub](https://github.com/RondineleG/ErpAnt/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+##### Create Solution
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+  - Anything here
+  - Anything here
 
+##### Split into layers
+
+  - Anything here
+  - Anything here 
+
+# Developing Roadmap:
+
+  - Anything here
+  - Anything here
+
+
+#### Primary Functions :
+  - Anything here
+  - Anything here
+  - Anything here
+
+#### Secondary Functions:
+>  Anything here
+>  Anything here
+>  Anything here
+>  Anything here
+>  Anything here
+>  Anything here
+>  Anything here
+
+
+### Technologies
+
+Anything here
+
+* [AspnetCore] - For Create a WebApi
+* [EntityFramework] - For manipulations DataBase
+* [SqlServer] - For DataBase. 
