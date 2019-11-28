@@ -1,6 +1,8 @@
+using ErpAnt.ApplicationCore.Interfaces.Repositories;
+
 namespace ErpAnt.InfraStructure.Repositories
 {
-    public class Repository
+    public class Repository : IRepository
     {
 
     }
